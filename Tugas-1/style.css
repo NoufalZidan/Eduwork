@@ -142,3 +142,22 @@ body {
 .introduction {
     border-bottom: #000 solid;
 }
+
+.portfolio h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    margin: 10px;
+    border: #000 solid;
+}
