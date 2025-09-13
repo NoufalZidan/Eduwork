@@ -51,7 +51,7 @@ body {
 }
 
 .container {
-    width: 800px;
+    width: 80%;
     margin: auto;
     background-color: #fff;;
 }
@@ -59,6 +59,9 @@ body {
 .header {
     padding: 20px;
     border-bottom: #000 solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header .judul {
@@ -74,4 +77,23 @@ body {
 
 .header a {
     text-decoration: none;
+}
+
+.header ul {
+    display: flex;
+}
+
+.main-content {
+    padding: 20px;
+    font-size: 10px;
+}
+
+.main-content h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.main-content button {
+    font-size: inherit;
 }
